@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
 using JunosPolicyViewer.Junos;
 
 namespace JunosPolicyViewer
@@ -13,7 +8,7 @@ namespace JunosPolicyViewer
     /// </summary>
     public partial class App : Application
     {
-        private Junos.Client client = new Client();
+        private readonly Client client = new Client();
 
         private void AppStart(object sender, StartupEventArgs e)
         {
