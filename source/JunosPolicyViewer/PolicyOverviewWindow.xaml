@@ -1,0 +1,10 @@
+﻿<Window x:Class="JunosPolicyViewer.PolicyOverviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Policy Overview" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+        <Grid Name="mainGrid">
+            <!--<DataGrid HorizontalAlignment="Stretch" Margin="10,10,10,10" VerticalAlignment="Stretch" Name="gridZones" ItemsSource="{Binding Path=Policies}"/>-->
+        </Grid>
+    </ScrollViewer>
+</Window>
